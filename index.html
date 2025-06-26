@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rubik's Cube Solver</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    button { margin: 5px; }
+    #cube-svg { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Rubik's Cube Solver</h1>
+  <button onclick="scrambleCube()">Scramble</button>
+  <button onclick="solveCube()">Solve</button>
+  <pre id="steps"></pre>
+  <div id="cube-svg"></div>
+  <script src="cube.js"></script>
+</body>
+</html>
